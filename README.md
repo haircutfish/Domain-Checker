@@ -1,4 +1,4 @@
-# DomainChecker.py
+# Domain Checker
 
 The script is used to check the validity of a domain.  It checks the Creation Date, Expiration Date, and when the WHOis record was last updated.  It also checks the following DNS records: A, AAAA, NS, CNAME, PTR, MX, and TXT.  Lastly, it will Curl the website to see what HTTP headers are sent back.
 
@@ -11,8 +11,8 @@ Follow these steps to install the the script on your system
 cd ~
 git clone https://github.com/haircutfish/Domain-Checker.git
 sudo chmod 755 ~/domainchecker.py/dc.py
-python3 -m pip install --user -r ~/domainchecker.py/requirements.txt
-sudo ln -s ~/domainchecker.py/dc.py /usr/local/bin/dc.py
+python3 -m pip install --user -r ~/Domain-Checker/requirements.txt
+sudo ln -s ~/Domain-Checker/dc.py /usr/local/bin/dc.py
 ```
 
 ### Usage:
