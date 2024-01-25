@@ -10,7 +10,7 @@ Follow these steps to install the the script on your system
 ```
 cd ~
 git clone https://github.com/haircutfish/Domain-Checker.git
-sudo chmod 755 ~/domainchecker.py/dc.py
+sudo chmod 755 ~/Domain-Checker/dc.py
 python3 -m pip install --user -r ~/Domain-Checker/requirements.txt
 sudo ln -s ~/Domain-Checker/dc.py /usr/local/bin/dc.py
 ```
